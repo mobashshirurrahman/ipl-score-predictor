@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>First Innings Score Predictor</title>
+    <link
+      rel="shortcut icon"
+      href="{{ url_for('static', filename='ipl-favicon.ico') }}"
+    />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/5f3f547070.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="bg-1"></div>
+               <h2 class='container-heading'><span class='heading_first'>First Innings Score Predictor for </span><span class="heading_second">Indian Premier League (IPL)</span></h2>
+               <div class='description'>
+             <p>A Machine Learning Web App, Built with Flask, Deployed using Heroku.</p>
+             <div class="bg-2"></div>
+      </div>
+
+
+    <!-- <slider >
+      <slide><p>slide 1</p></slide>
+      <slide><p>slide 2</p></slide>
+      <slide><p>slide 1</p></slide>
+      <slide><p>slide 2</p></slide>
+    </slider> -->
+
+  <div class="background">
+    <div class="im-left"><img src="https://d13ir53smqqeyp.cloudfront.net/d11-static-pages/images/mobile_banner_new.webp" alt="logo"></div>
+    <div class='div2'>
+ <!-- Result -->
+ <div class="results">
+    <p class='result-p'>The Final Predicted score (range):<br> {{ lower_limit }} to {{ upper_limit }}</p>
+</div>
+  </div>
+  </div>
+
+  <div class="team">
+   <h4> RATING OF OUR PREDICTION APP!</h4>
+  </div>
+  <div class="rate"><img src="https://d13ir53smqqeyp.cloudfront.net/d11-static-pages/images/d11_rating.webp" alt="img"></div>
+  <div class="member">
+    <div class="n1"><h5>MOBASHSHIRUR RAHMAN</h5>
+      <p style="font-style: italic;">Python Developer</p>
+
+        <a target="_blank" href="https://github.com/mobashshirurrahman"><i class="fab fa-github fa-lg contact-icon"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/mobashshirur-rahman-%F0%9F%91%B2-765186158/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+    </div>
+    <div class="n1"><h5>MD SABIR HUSSAIN</h5>
+      <p style="font-style: italic;">UI Developer</p>
+      <a target="_blank" href="https://github.com/mobashshirurrahman"><i class="fab fa-github fa-lg contact-icon"></i></a>
+      <a target="_blank" href="https://www.linkedin.com/in/mobashshirur-rahman-%F0%9F%91%B2-765186158/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+    </div>
+    <div class="n1"><h5>ABHISHEK ANAND</h5>
+      <p style="font-style: italic;">Python Developer</p>
+      <a target="_blank" href="https://github.com/mobashshirurrahman"><i class="fab fa-github fa-lg contact-icon"></i></a>
+      <a target="_blank" href="https://www.linkedin.com/in/mobashshirur-rahman-%F0%9F%91%B2-765186158/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a></div>
+    <div class="n1"><h5>MD RIZWAN ANSARI</h5>
+      <p style="font-style: italic;">UI Developer</p>
+      <a target="_blank" href="https://github.com/mobashshirurrahman"><i class="fab fa-github fa-lg contact-icon"></i></a>
+      <a target="_blank" href="https://www.linkedin.com/in/mobashshirur-rahman-%F0%9F%91%B2-765186158/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+    </div>
+  </div>
+  <footer>
+    <!-- <div class="foot">
+      <div class="conatact"><a href="#">Contact Us</a></div>
+      <div class="hire"><a href="#">Hire Us</a></div>
+      <div>Copyright @ 2020</div> -->
+      <section class="progress_bar">
+        <div class="container2">
+          <div class="progress_bar_inner">
+           <p>Copyright @ 2020</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+  </footer>
+
+  </body>
+</html>
