@@ -1,7 +1,8 @@
 alabaster==0.7.12
-
+anaconda-client==1.7.2
 anaconda-navigator==1.9.12
 anaconda-project==0.8.3
+appdirs==1.4.4
 argh==0.26.2
 asn1crypto==1.3.0
 astroid==2.3.3
@@ -48,6 +49,7 @@ dask==2.11.0
 decorator==4.4.1
 defusedxml==0.6.0
 diff-match-patch==20181111
+distlib==0.3.1
 distributed==2.11.0
 dnspython==1.16.0
 docutils==0.16
@@ -64,7 +66,7 @@ future==0.18.2
 gevent==1.4.0
 glob2==0.7
 greenlet==0.4.15
-gunicorn==20.0.4
+gunicorn==19.9.0
 h5py==2.10.0
 HeapDict==1.0.1
 html5lib==1.0.1
@@ -82,7 +84,7 @@ isort==4.3.21
 itsdangerous==1.1.0
 jdcal==1.4.1
 jedi==0.14.1
-Jinja2==2.10.3
+Jinja2==2.10.1
 joblib==0.14.1
 json5==0.9.1
 jsonschema==3.2.0
@@ -228,10 +230,11 @@ traitlets==4.3.3
 ujson==1.35
 unicodecsv==0.14.1
 urllib3==1.25.7
+virtualenv==20.0.35
 watchdog==0.10.2
 wcwidth==0.1.8
 webencodings==0.5.1
-Werkzeug==0.16.0
+Werkzeug==0.15.5
 widgetsnbextension==3.5.1
 win-inet-pton==1.1.0
 win-unicode-console==0.5
