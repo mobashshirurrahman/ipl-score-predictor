@@ -294,24 +294,3 @@ color:#ffffff;
 font-size:25px;
 margin-top:50px;
 }
-@media only screen and (max-width: 600px) {
-  .member {
-  display: flex;
-    flex-direction: column;
-    justify-items: center;
-    gap: 40px;
-
-    justify-content: space-evenly;
-    margin-top: 50px;
-}
-
-}
-.n1 h5{
-font-size:2rem;
-}
-.n1 p{
-font-style: italic;
-    font-size: 2rem;
-    padding-top: 17px;
-}
-}
